@@ -1,0 +1,28 @@
+.header{
+    margin-top: 0;
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.containerButton{
+    width: 30%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+
+}
+.containerButton h1{
+    font-size: 30px;
+    font-weight: 100;
+}

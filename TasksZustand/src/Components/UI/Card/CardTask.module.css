@@ -1,0 +1,48 @@
+.card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 35vw;
+    height: auto;
+    background-color: rgb(227, 224, 224);
+    border-radius: 10px;
+}
+
+.data{
+    margin: 10px;
+}
+.incomplete {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    border: 4px solid rgb(255, 30, 30);
+  }
+.pending {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    border: 4px solid rgb(251, 255, 132);
+  }
+
+.completed {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    border: 4px solid rgb(122, 255, 122)
+  }
+
+  .buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+  }
