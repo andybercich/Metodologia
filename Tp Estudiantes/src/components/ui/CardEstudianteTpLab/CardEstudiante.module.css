@@ -1,0 +1,15 @@
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: aqua;
+    width: 15rem;
+    height:18rem ;
+}
+
+.cardDiv:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}

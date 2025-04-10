@@ -1,0 +1,22 @@
+.mainDiv{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    background-color: brown;
+    min-height: 90vh;
+    min-width: 95vw;
+    max-height: 90vh;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
