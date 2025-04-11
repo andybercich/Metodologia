@@ -20,12 +20,15 @@ export const CardTpLab:FC<Props> = ({curso}) => {
 
   return (
     <div className={style.cardDiv} onClick={()=>{clickCard()}}>
-        <h1>
+        <h3>
             {curso.id}
-        </h1>
-        <h1>
+        </h3>
+        <h3>
             {curso.nombre}
-        </h1>
+        </h3>
+        <h3>
+            Cantidad alumnos:{curso.estudiantes.length}
+        </h3>
     </div>
   )
 }
