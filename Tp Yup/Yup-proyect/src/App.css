@@ -1,0 +1,8 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9; /* Un fondo claro */
+  color: #333; /* Color de texto oscuro */
+  line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+  margin: 0;
+  padding: 0;
+}

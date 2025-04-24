@@ -1,0 +1,80 @@
+.mainForm {
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    place-items: center;
+  }
+
+.divTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    align-items: center;
+}
+  
+  .titulo {
+    display: flex;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 1rem;
+  }
+  form > div {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    min-height: 4rem;
+}
+input {
+    width:15rem;
+    height: 2.5rem;
+    color: rgba(0, 0, 0, 0.758);
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.581);
+    outline: none;
+    transition: 350ms;
+
+}
+
+input:hover{
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+  .error {
+    min-height: 1.5rem;
+    color: red;
+    font-size: 0.7rem;
+    margin: 0.25rem 0 0;
+  }
+.enviar{
+    border: 0.8px solid #266F26;
+    width: 9.3rem;
+    height: 1.8rem;
+    color: #266F26;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: 450ms;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+.enviar:hover{
+
+    cursor: pointer;
+    color: #4fea4f;
+    border: 0.8px solid #4fea4f;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.376); 
+}
